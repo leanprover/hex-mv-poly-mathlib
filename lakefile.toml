@@ -1,6 +1,11 @@
 name = "hex-mv-poly-mathlib"
 defaultTargets = ["HexMvPolyMathlib"]
 
+leanOptions = [
+  { name = "doc.verso", value = true },
+  { name = "doc.verso.suggestions", value = false },
+]
+
 [[require]]
 name = "HexMvPoly"
 git = "https://github.com/leanprover/hex-mv-poly.git"
