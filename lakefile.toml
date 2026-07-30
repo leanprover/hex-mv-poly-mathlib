@@ -4,12 +4,12 @@ defaultTargets = ["HexMvPolyMathlib"]
 [[require]]
 name = "HexMvPoly"
 git = "https://github.com/leanprover/hex-mv-poly.git"
-rev = "50f2d43fc3943a3be7b1da64ea3aa4965de9839a"
+rev = "8b1c0352464de36642734d50a11bbbe4b6ca7e1f"
 
 [[require]]
 name = "HexPolyMathlib"
 git = "https://github.com/leanprover/hex-poly-mathlib.git"
-rev = "3040fad94f638064eabd9c1d8e3ad4b68112dedb"
+rev = "5541f9251d277359aac7727eaf789a13003ab1a8"
 
 [[require]]
 name = "mathlib"
