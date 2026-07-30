@@ -23,7 +23,14 @@ jobs:
           lake build HexMvPolyMathlib 2>&1 | tee build.log
           if grep -qE 'Building Mathlib\b' build.log; then
             echo "ERROR: Mathlib rebuilt from source (cache miss)"; exit 1; fi
+      - name: Fetch Mathlib cache for correspondence conformance
+        run: |
+          cd conformance
+          lake exe cache get
       - name: Build correspondence conformance
         run: |
           cd conformance
-          lake build
+          set -o pipefail
+          lake build HexMvPolyMathlibConformance 2>&1 | tee build.log
+          if grep -qE 'Building Mathlib\b' build.log; then
+            echo "ERROR: Mathlib rebuilt from source (cache miss)"; exit 1; fi
