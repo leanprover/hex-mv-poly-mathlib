@@ -9,12 +9,12 @@ leanOptions = [
 [[require]]
 name = "HexMvPoly"
 git = "https://github.com/leanprover/hex-mv-poly.git"
-rev = "51f56155b0165ab8bd334cebce788a56c9e79b7a"
+rev = "673d31ece9204eb6304d8fe52feb6784b18aaf73"
 
 [[require]]
 name = "HexPolyMathlib"
 git = "https://github.com/leanprover/hex-poly-mathlib.git"
-rev = "d4bbb82b87704d3016c6c1d822ae1f77c793958a"
+rev = "a9eb9de8c92b96f57660d02c468f9f8622066641"
 
 [[require]]
 name = "mathlib"
@@ -24,7 +24,7 @@ rev = "v4.34.0-rc2"
 [[require]]
 name = "HexBasic"
 git = "https://github.com/leanprover/hex-basic.git"
-rev = "da8a864cd17ccca780d8c76af403e88585bc4734"
+rev = "a47240943e925951a676d1a1c2f2a615ae68fdef"
 
 [[lean_lib]]
 name = "HexMvPolyMathlib"
